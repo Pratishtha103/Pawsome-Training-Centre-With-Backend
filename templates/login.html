@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawsome Training Center</title>
+    <link rel="stylesheet" href="/static/login.css">
+</head>
+<body>
+    <div class="mid-image">
+        <!-- Display Flash Messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <ul>
+                {% for category, message in messages %}
+                    <li class="{{ category }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+    <!-- Login Form -->
+        <div class="login">
+            <h3>Login</h3>
+            <hr>
+            
+            <form id="loginform" action="/login" method="POST">
+                <label>Username</label><br>
+                <input type="text" name="username" placeholder="Enter Username" required>
+                <br>
+                <label >Email</label><br>
+                <input type="email" name="email" placeholder="Enter your Email" required>
+                <br>
+                <label >Password</label><br>
+                <input type="password" name="password" placeholder="Enter Password" required>
+                <br>
+                <button type="submit"><b>Log In</b></button>
+                <a>Forgot Password</a>
+            </form>
+        </div>
+    </div>
+    <script src="/static/loginjs.js"></script>
+</body>
+</html>
