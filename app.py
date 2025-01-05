@@ -5,7 +5,7 @@ from flask_bcrypt import Bcrypt
 # Initialize Flask app and configure the database
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3'
-app.config['SECRET_KEY'] = '09747ada2eeef87f5f3df7df1acf0f20'  # Needed for flash messages
+app.config['SECRET_KEY'] = 'your hex secret code'  # Needed for flash messages
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 
