@@ -1,24 +1,24 @@
 # Pawsome-Training-Centre-Website
 Welcome to the Pawsome Training Website repository! This project is designed to provide an online platform for dog training, where users can sign up, log in, and access home page.
 
-#Features
+Features:
 Signup & Login: Users can create an account and log in to dashboard.
 Frontend: Built with HTML, CSS, and JavaScript to create a user-friendly interface.
 Backend: Flask Python is used to handle user authentication and data management.
 Environment: Runs in a Python virtual environment to manage dependencies and keep the environment isolated.
-#Tech Stack
+Tech Stack:
 Frontend: HTML, CSS, JavaScript
 Backend: Python (Flask)
 Database: SQLite3
 Environment: Python 3.x, Virtual Environment (venv)
-#Setup & Installation
-#Prerequisites
+
+Setup & Installation:
+Prerequisites:
 Python 3.x installed on your system
 Pip (Python package installer)
 A text editor or IDE (e.g., VSCode, PyCharm)
-#Steps
-Clone the Repository
-
+Steps:
+Clone the Repository:
 git clone https://github.com/Pratishtha103/pawsome-training.git
 cd pawsome-training
 Set up Python Virtual Environment Create a virtual environment:
