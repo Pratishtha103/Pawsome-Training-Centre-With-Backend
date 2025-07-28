@@ -1,6 +1,7 @@
 # Pawsome-Training-Centre-Website
 Welcome to the Pawsome Training Website repository! This project is designed to provide an online platform for pet training and other services, where users can sign up, log in, and access home page.
 
+![Pawsome-Training-Centre-Website](Home.png)
 # Features:
 
 Signup & Login: Users can create an account and log in to dashboard.
