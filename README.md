@@ -36,10 +36,6 @@ A text editor or IDE (e.g., VSCode, PyCharm)
 
 Steps:
 
-Clone the Repository:
-
-git clone https://github.com/Pratishtha103/pawsome-training.git
-cd pawsome-training
 
 Set up Python Virtual Environment Create a virtual environment:
 
