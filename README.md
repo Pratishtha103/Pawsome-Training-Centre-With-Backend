@@ -8,7 +8,7 @@ Signup & Login: Users can create an account and log in to dashboard.
 
 Frontend: Built with HTML, CSS, and JavaScript to create a user-friendly interface.
 
-Backend: Flask Python is used to handle user authentication and data management.
+Backend: Flask Python is used to handle user authentication.
 
 Environment: Runs in a Python virtual environment to manage dependencies and keep the environment isolated.
 
