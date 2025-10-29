@@ -18,8 +18,6 @@ Frontend: HTML, CSS, JavaScript
 
 Backend: Python (Flask)
 
-Database: SQLite3
-
 Environment: Python 3.x, Virtual Environment (venv)
 
 # Setup & Installation:
