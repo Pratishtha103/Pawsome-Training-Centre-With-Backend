@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 from flask_sqlalchemy import SQLAlchemy
+from flask import jsonify
 from flask_bcrypt import Bcrypt
 
 # Initialize Flask app and configure the database
@@ -70,6 +71,11 @@ def login():
 @app.route('/dashboard')
 def dashboard():
     return render_template('home.html')  # Render the home page
+
+# Welcome to Pawsome backend
+@app.route('/')
+def welcome():
+    return jsonify({"message": "Pawsome Backend is running"}), 200
 
 if __name__ == '__main__':
     with app.app_context():

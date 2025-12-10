@@ -1,0 +1,155 @@
+.banner{
+    height:100px;
+    width:auto;
+    border: 2px;
+    border-radius: 5px;
+    background-color: rgb(204, 170, 170);
+}
+.banner img{
+    height:100px;
+    width:150px;
+    margin-left: 20px;
+    cursor: pointer;
+    float:left;
+}
+.navbar ul li{
+    padding-top: 40px;
+    float:right;
+}
+.navbar ul li{
+    list-style:none;
+    display:inline-flex;
+    margin:0 10px;
+    position:relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+}
+.services{
+    cursor: pointer;
+    text-align: left;
+    color: black;
+}
+.drop{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.drop a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.services:hover .drop{
+    margin-top: 17px;
+    display: block;
+}
+.drop a:hover{
+    background-color:rgb(204, 170, 170);
+}
+.mid-image{
+    border-radius: 10px;
+    height:1000px;
+    width:100%;
+    margin-top: 30px;
+    background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.75)),url('back.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:center;
+}.content{
+    color:white;
+    font-family: 'Times New Roman';
+    text-align: center;
+    padding-top: 5px;
+}
+.p1{
+    height:300px;
+    width:300px;
+    background-color: rgba(197, 169, 217,0.5);
+    border-radius: 17px;
+    color: white;
+    display: inline-block;
+    margin: 50px;
+}
+.p2{
+    height:300px;
+    width:300px;
+    background-color: rgba(139, 218, 219, 0.5);
+    border-radius: 17px;
+    color: white;
+    display: inline-block;
+    margin: 50px;
+    margin-left: 200px;
+}
+.trhead{
+    text-align: center;
+}
+.desc{
+    padding: 10px;
+    text-align: justify;
+}
+.foot{
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: #111;
+}
+.footerContainer{
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display:flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:10px;
+    background-color: white;
+    margin: 10px;
+    border-radius:50%;
+}
+.socialIcons a i{
+    font-size:1em;
+    color: black;
+    opacity:0.9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition:0.2s;
+}
+.socialIcons a:hover i{
+    color:white;
+    transition:0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display:flex;
+    justify-content:space-evenly;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    opacity:0.7;
+    transition:0.5s;
+}
+.footerNav ul li a:hover{
+    opacity:1;
+}
+.footerBottom{
+    background-color: #000;
+    padding:20px;
+    text-align:center;
+}
+.footerBottom p{
+    color: white;
+}

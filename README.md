@@ -49,11 +49,11 @@ source venv/bin/activate
 
 Install Dependencies:
 
-pip install Flask==2.2.3
+pip install Flask
 
-pip install Flask-SQLAlchemy==2.5.1
+pip install Flask-SQLAlchemy
 
-pip install Flask-Bcrypt==1.0.0
+pip install Flask-Bcrypt
 
 Run the Flask Application after setting up your environment, run the Flask app:
 
