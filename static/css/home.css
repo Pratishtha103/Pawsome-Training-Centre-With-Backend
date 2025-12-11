@@ -1,9 +1,14 @@
+body {
+    font-family: "Sour Gummy", sans-serif;
+    background-color: var(--bg-2);
+}
+
 .banner{
     height:100px;
     width:auto;
     border: 2px;
     border-radius: 5px;
-    background-color: rgb(204, 170, 170);
+    background-color: var(--accent-3);
 }
 .banner img{
     height:100px;
@@ -24,12 +29,17 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color:black;
+    color:var(--primary-1);
+    font-weight: 600;
+    font-size: 24px;
 }
 .services{
     cursor: pointer;
     text-align: left;
-    color: black;
+    color:var(--primary-1);
+    font-weight: 600;
+    font-size: 24px;
+
 }
 .drop{
     display: none;
