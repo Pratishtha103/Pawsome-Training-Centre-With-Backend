@@ -67,7 +67,7 @@ body {
 section {
     width: 100%;
     height: 100vh;
-    background:url('back.png');
+    background:url('/static/images/back.png');
     background-size: cover;
 }
 /* Styling the left floating section */

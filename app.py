@@ -99,7 +99,13 @@ def groom():
 def session():
     return render_template('session.html')
 
+@app.route('/event')
+def event():
+    return render_template('event.html')
 
+@app.route('/survey')
+def survey():
+    return render_template('survey.html')
 # Route: Dashboard (serves home.html)
 # @app.route('/dashboard')
 # def dashboard():
