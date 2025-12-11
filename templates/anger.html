@@ -12,20 +12,21 @@
         <img src="/static/images/logo.png" alt="logo">
         <nav class="navbar">
             <ul>
-                <li><a href="signup.html">SIGN-UP/LOG-IN</a></li>
+                <li><a href="{{ url_for('signup') }}">SIGN-UP/LOG-IN</a></li>
                 <li class="services">SERVICES &#9662;
-                    <div class="drop">
-                        <a href="training.html">TRAINING</a>
-                        <a href="food.html">NUTRITIONAL FOOD</a>
-                        <a href="toys.html">PET TOYS</a>
-                        <a href="anger.html">ANGER MITIGATION</a>
-                        <a href="groom.html">GROOMING</a>
-                        <a href="session.html">COUNSELLING SESSION</a>
-                    </div>
-                    </li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="home.html">HOME</a></li>
-            </ul>
+                <div class="drop">
+                    <a href="{{ url_for('training') }}">TRAINING</a>
+                    <a href="{{ url_for('food') }}">NUTRITIONAL FOOD</a>
+                    <a href="{{ url_for('toys') }}">PET TOYS</a>
+                    <a href="{{ url_for('anger') }}">ANGER MITIGATION</a>
+                    <a href="{{ url_for('groom') }}">GROOMING</a>
+                    <a href="{{ url_for('session') }}">COUNSELLING SESSION</a>
+                </div>
+            </li>
+
+            <li><a href="{{ url_for('about') }}">ABOUT</a></li>
+            <li><a href="{{ url_for('home') }}">HOME</a></li>
+        </ul>
         </nav>
     </div>
     
@@ -72,11 +73,11 @@
                 <a href="#"><i class="fa-brands fa-youtube"></i></a>
             </div>
             <div class="footerNav">
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
+                <ul>
+                    <li><a href="{{ url_for('home') }}">Home</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+                </ul>
             </div>
         </div>
         <div class="footerBottom">

@@ -59,7 +59,7 @@
     height:1000px;
     width:100%;
     margin-top: 30px;
-    background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.75)),url('back.png');
+    background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.75)),url('/static/images/back.png');
     background-repeat: no-repeat;
     background-size:contain;
     background-position:center;

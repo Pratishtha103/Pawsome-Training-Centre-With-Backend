@@ -58,7 +58,7 @@
     border-radius: 10px;
     height:500px;
     width:100%;
-    background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.75)),url('back.png');
+    background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.75)),url('/static/images/back.png');
     background-repeat: no-repeat;
     background-size:contain;
     background-position:center;

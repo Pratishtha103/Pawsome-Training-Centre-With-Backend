@@ -61,21 +61,59 @@ def login():
         user = User.query.filter_by(email=email, username=username).first()
         if user and bcrypt.check_password_hash(user.password, password):
             flash('Login successful!', 'success')
-            return redirect(url_for('dashboard'))  # Redirect to home page
+            return redirect(url_for('home'))  # Redirect to home page
         else:
             flash('User not registered or invalid credentials.', 'danger')
 
     return render_template('login.html')
 
-# Route: Dashboard (serves home.html)
-@app.route('/dashboard')
-def dashboard():
-    return render_template('home.html')  # Render the home page
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
-# Welcome to Pawsome backend
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+@app.route('/training')
+def training():
+    return render_template('training.html')
+
+@app.route('/food')
+def food():
+    return render_template('food.html')
+
+@app.route('/toys')
+def toys():
+    return render_template('toys.html')
+
+@app.route('/anger')
+def anger():
+    return render_template('anger.html')
+
+@app.route('/groom')
+def groom():
+    return render_template('groom.html')
+
+@app.route('/session')
+def session():
+    return render_template('session.html')
+
+
+# Route: Dashboard (serves home.html)
+# @app.route('/dashboard')
+# def dashboard():
+#     return render_template('home.html')  # Render the home page
 @app.route('/')
-def welcome():
-    return jsonify({"message": "Pawsome Backend is running"}), 200
+def home():
+    return render_template('home.html')
+
+# # Welcome to Pawsome backend
+# @app.route('/')
+# def home():
+#     return render_template('home.html')
+
+    # return jsonify({"message": "Pawsome Backend is running"}), 200
 
 if __name__ == '__main__':
     with app.app_context():
