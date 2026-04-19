@@ -1,3 +1,7 @@
+body {
+    font-family: "Sour Gummy", sans-serif;
+    background-color: var(--bg-2);
+}
 .banner{
     height:100px;
     width:auto;
@@ -55,7 +59,6 @@
 }
 .content{
     color:black;
-    font-family: 'Times New Roman';
 }
 /* Styling the body */
 body {
@@ -211,6 +214,12 @@ section .events ul li .details a:hover {
     background:rgb(204, 170, 170);
     color: #fff;
     border-color: rgb(204, 170, 170);
+}
+section .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .foot{
     box-sizing: border-box;

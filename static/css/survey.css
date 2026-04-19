@@ -3,7 +3,7 @@
 		Font, Alignment */ 
 		body {
 			background-color: rgba(0, 0, 0, 0.5);
-			font-family: Verdana;
+			font-family: "Sour Gummy", sans-serif;
 			text-align: center;
 		}
         .logo{
