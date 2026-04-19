@@ -112,7 +112,7 @@ def survey():
 #     return render_template('home.html')  # Render the home page
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('index.html')
 
 # # Welcome to Pawsome backend
 # @app.route('/')
