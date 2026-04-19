@@ -49,15 +49,11 @@ source venv/bin/activate
 
 Install Dependencies:
 
-pip install Flask
-
-pip install Flask-SQLAlchemy
-
-pip install Flask-Bcrypt
+pip install -r reuirements.txt
 
 Run the Flask Application after setting up your environment, run the Flask app:
 
-python app.py
+python api/index.py
 
 The app will be accessible at http://127.0.0.1:5000/signup in your browser.
 

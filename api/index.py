@@ -4,7 +4,11 @@ from flask import jsonify
 from flask_bcrypt import Bcrypt
 
 # Initialize Flask app and configure the database
-app = Flask(__name__)
+app = Flask(
+    __name__,
+    template_folder="../templates",
+    static_folder="../static"
+)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3'
 app.config['SECRET_KEY'] = 'your hex secret code'  # Needed for flash messages
 db = SQLAlchemy(app)
